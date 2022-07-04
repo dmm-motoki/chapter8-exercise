@@ -1,0 +1,71 @@
+＊ {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  width: 960px;
+}
+
+li {
+  width: 920px;
+  padding: 20px;
+  list-style: none;
+  display: inline-block;
+}
+
+.kisu {
+  background-color: rgb(0,0,0,0.1)
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 960px;
+}
+
+.main-item {
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+}
+
+.item1,
+.item2,
+.item4,
+.item5,
+.item7,
+.item8 {
+  margin-right: 5%;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+  margin-bottom: 40px;
+}
+
+.item1,
+.item5,
+.item9 {
+  background-color: orange;
+}
+
+.item2,
+.item3,
+.item4,
+.item6,
+.item7,
+.item8 {
+  background-color: yellow;
+}
+
+.top,
+.main {
+  margin: 50px auto;
+}
